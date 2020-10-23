@@ -1,4 +1,4 @@
-/*Assignment02, CSCI3120, Sourav Das, B00785668*/
+/**/
 /*calling the header files needed for this program*/
 #include <stdio.h>
 #include <stdlib.h>
