@@ -57,7 +57,7 @@ int main() {//this is the main function
                 memcpy(input, history[(counter%10)-3], MAX_LINE + 1);//copying the command from the history
                 input_size = strlen(input); //setting the input_size to the size of the command               
                 }
-                 if (strcmp(input, "5") == 0) { //if the user types in !N, we execute the latest command            
+                 if (strcmp(input, "!5") == 0) { //if the user types in !N, we execute the latest command            
                 memcpy(input, history[(counter%10)-4], MAX_LINE + 1);//copying the command from the history
                 input_size = strlen(input); //setting the input_size to the size of the command               
                 }
